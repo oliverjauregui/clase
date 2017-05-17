@@ -1,8 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: arial;
+	font-family: "Lato-Light", italic;
 	text-decoration: none;
+	list-style: none;
+}
+@font-face
+{
+   font-family: "Lato-Light";
+   src: url("../fonts/Lato-Light.ttf");
 }
 header {
 	background-color: #fff;
@@ -29,7 +35,7 @@ nav ul li{
 }
 #banner{
 	width: 100%;
-	height: 760px;
+	height: 750px;
 	background: rgb(2,48,103) no-repeat 50% 50%;
 	background-size: cover;
 	overflow: hidden;
@@ -40,15 +46,197 @@ nav ul li{
 	flex-wrap: wrap;
 	text-align: center;
 }
-button{
+.send1{
 	height: 30px;
 	width: 110px;
 	border-radius: 3px;
-	margin-top: 12px;
+	border: 0;
 	background-color: #ffaa00;
 	color: white;
-	margin-left: auto;
-	margin-right: auto;
+	align-self: center;
 	margin-top: -100px;
-
+}
+#portafolio {
+	height: 100px;
+	width: 100%;
+	background-color: #ffaa00;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+}
+#portafolio ul {
+	display: flex;
+}
+.hover {
+	padding: 10px;
+}
+.hover:hover {
+	background-color: white;
+	color: #ffaa00;
+	border-radius: 3px;
+}
+.galeria {
+	height: 500px;
+	width: 100%;
+	background-color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.galeria img {
+	padding: 6px;
+}
+#about {
+	height: 550px;
+	width: 100%;
+	background-color: #003471;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.habout {
+	border: 1px solid #fff;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 30px;
+	padding: 10px;
+}
+#about div img {
+	height: 120px;
+	width: 120px;
+}
+.icons {
+	display: flex;
+}
+.icons div {
+	padding: 13px;
+}
+h5{
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 15px;
+}
+#team {
+	height: 500px;
+	width: 100%;
+	background-color: #ebebeb;
+	color: #2f5989;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+.team {
+	border: 1px solid #2f5989;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 30px;
+	padding: 10px;
+}
+.people {
+	display: flex;
+	text-align: center;
+}
+.people div img {
+	border: 10px solid #ccc;
+	border-radius: 50%;
+}
+.people div {
+	padding: 20px;
+}
+.people div h5{
+	margin-top: 4px;
+	font-size: 14px;
+	color: #ffaa00;
+}
+.awesome i {
+	color: #ccc;
+	font-size: 30px;
+}
+#clients {
+	height: 350px;
+	width: 100%;
+	background-color: #003471;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.clients {
+	border: 1px solid #fff;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 30px;
+	padding: 10px;
+}
+.marcas {
+	display: flex;
+}
+.marcas div {
+	padding: 1px;
+	text-align: center;
+}
+#contact {
+	height: 400px;
+	width: 100%;
+	background: rgba(235,235,235,0.9) no-repeat 50% 50%;
+	background-image: url(../images/mapafondo.png);
+	background-size: 80% 340px;
+	color: #2f5989;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+h6 {
+	font-size: 17px;
+}
+.info div {
+	padding: 15px;
+}
+.icons2 img{
+	padding: 8px;
+}
+.send2{
+	height: 30px;
+	width: 110px;
+	border-radius: 3px;
+	border: 0;
+	color: #ffaa00;
+	background-color: #fff;
+	margin-top: 15px;
+	box-shadow: 2px 6px 4px #b0b0b0;
+}
+.minimenu {
+	background-color: #ffaa00;
+	color: #fff;
+	height: 60px;
+}
+.minimenu ul {
+	display: flex;
+	justify-content: center;
+}
+.minimenu li {
+	padding: 18px;
+}
+footer {
+	width: 100%;
+	height: 135px;
+	background-color: #003471;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+h4 {
+	font-size: 15px;
+	margin-top: 29px;
 }
