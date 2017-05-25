@@ -99,12 +99,19 @@ nav ul li{
 	flex-direction: column;
 	text-align: center;
 }
+.line{
+	height: 10%;
+	border-left: 1px solid #fff;
+	margin-top: -18px;
+}
 .habout {
 	border: 1px solid #fff;
 	border-radius: 8px;
 	font-weight: 400;
 	font-size: 30px;
 	padding: 10px;
+	background-color: #003471;
+	margin-top: -40px;
 }
 #about div img {
 	height: 120px;
@@ -132,12 +139,18 @@ h5{
 	justify-content: space-around;
 	text-align: center;
 }
+.line1{
+	height: 12%;
+	border-left: 1px solid #003471;
+	margin-top: -18px;
+}
 .team {
 	border: 1px solid #2f5989;
 	border-radius: 8px;
 	font-weight: 400;
 	font-size: 30px;
 	padding: 10px;
+	background-color: #ebebeb;
 }
 .people {
 	display: flex;
@@ -159,6 +172,10 @@ h5{
 	color: #ccc;
 	font-size: 30px;
 }
+.awesome i:hover{
+	color: #ffaa00;
+	border-radius: 3px;
+}
 #clients {
 	height: 350px;
 	width: 100%;
@@ -169,12 +186,19 @@ h5{
 	align-items: center;
 	justify-content: space-around;
 }
+.line2{
+	height: 28%;
+	border-left: 1px solid #ebebeb;
+	margin-top: -50px;
+}
 .clients {
 	border: 1px solid #fff;
 	border-radius: 8px;
 	font-weight: 400;
 	font-size: 30px;
 	padding: 10px;
+	background-color: #003471;
+	margin-top: -80px;
 }
 .marcas {
 	display: flex;
@@ -195,14 +219,31 @@ h5{
 	align-items: center;
 	justify-content: space-around;
 }
+.line1{
+	height: 24%;
+	border-left: 1px solid #003471;
+	margin-top: -79px;
+}
+.contact {
+	border: 1px solid #2f5989;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 30px;
+	padding: 10px;
+	background-color: #ebebeb;
+	margin-top: -179px;
+}
 h6 {
 	font-size: 17px;
 }
 .info div {
 	padding: 15px;
 }
-.icons2 img{
+.icons2 i{
 	padding: 8px;
+}
+.icons2 i:hover{
+	color: #ffaa00;
 }
 .send2{
 	height: 30px;
@@ -225,6 +266,11 @@ h6 {
 }
 .minimenu li {
 	padding: 18px;
+}
+.minimenu li:hover {
+	background-color: white;
+	color: #ffaa00;
+	border-radius: 3px;
 }
 footer {
 	width: 100%;
